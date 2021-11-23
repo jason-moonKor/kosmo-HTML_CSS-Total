@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>후손 선택자</title>
+		<style>
+			#document span {
+				color: blue !important; /* 우선순위 먼저를 표시
+                                            속성값 뒤에 !important 를 붙인다*/
+			}
+			#document span {
+				color: blueviolet;
+			}
+			#method span {
+				color: red;
+			}
+			h3 {
+				color: turquoise !important;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>봄빛 수목원 직원 채용안내</h1>
+		<h3>제출 서류</h3>
+		<ul id="document">
+			<li>
+				<span>이력서</span>
+				(첨부 양식을 다운로드해라)
+			</li>
+			<li>
+				<span>자기소개서</span>
+				(자유 양식으로)
+			</li>
+			<li>
+				<span>주민등록등본</span>
+				(주소이동내역포함)
+			</li>
+		</ul>
+		<h3 style="color: yellow">제출방법</h3>
+		<ul id="method">
+			<li>
+				<span>위 서류를 모빛 수목원 인사담당자</span>
+				에게 보내라
+			</li>
+			<li>
+				<span>이메일 주소</span>
+				: kosmo@kosmo.com
+			</li>
+		</ul>
+	</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>연습문제 회원가입 양식</title>
+  </head>
+  <body>
+    <h1>회원 가입 양식</h1>
+    <table>
+      <tr>
+        <td>- 아이디</td>
+        <td>
+          <input type="text" />
+        </td>
+      </tr>
+      <tr>
+        <td>- 비밀번호</td>
+        <td>
+          <input type="password" />
+        </td>
+      </tr>
+      <tr>
+        <td>- 비밀번호 확인</td>
+        <td>
+          <input type="password" />
+        </td>
+      </tr>
+      <tr>
+        <td>- 이름</td>
+        <td>
+          <input type="text" />
+        </td>
+      </tr>
+      <tr>
+        <td>- 성별</td>
+        <form action="#">
+          <td>
+            <input type="radio" name="info" checked />여성
+            <input type="radio" name="info" /> 남성
+          </td>
+        </form>
+      </tr>
+      <tr>
+        <td>- 전화번호</td>
+        <td>
+          <select>
+            <option>02</option>
+            <option>032</option>
+            <option>031</option>
+            <option>010</option>
+            <option>직접입력</option>
+          </select>
+          - <input type="text" /> - <input type="text" />
+        </td>
+      </tr>
+      <tr>
+        <td>- 이메일</td>
+        <td>
+          <input type="text" /> @
+          <select>
+            <option>선택</option>
+            <option>naver.com</option>
+            <option>hanmail.net</option>
+            <option>google.com</option>
+            <option>직접입력</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>- 자기소개</td>
+        <td>
+          <textarea rows="10" cols="50"></textarea>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><input type="reset" /> <input type="submit" /></td>
+      </tr>
+    </table>
+  </body>
+</html>

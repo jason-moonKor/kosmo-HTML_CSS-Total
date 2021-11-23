@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>1. 태그 선택자</title>
+		<style>
+			h2 {
+				color: blue;
+				font-family: "궁서체";
+				font-size: 50px;
+			}
+			h3 {
+				color: brown;
+				font-size: 20px;
+				font-style: italic;
+				text-decoration: underline;
+			}
+			p {
+				color: rebeccapurple;
+				font-family: "바탕";
+				line-height: 150%;
+			}
+			.name {
+				color: blue;
+				font-weight: bold;
+			}
+			.age {
+				color: blueviolet;
+			}
+			.sex {
+				color: green;
+			}
+			table,
+			th,
+			tr,
+			td {
+				border: solid 1px darkolivegreen;
+				border-collapse: collapse;
+				padding: 8px;
+			}
+		</style>
+	</head>
+	<body>
+		<h2>향나무</h2>
+		<h3>1. 특징</h3>
+		<p>
+			향나무는 높이가 20m까지 자란다. 새로 돋아나는 가지는 녹색이고 잎은
+			마주나거나 돌려나며 가지가 보이지 않을 정도로 밀생한다. 목재를 향으로
+			써왔기 때문에 향나무라고 한다.
+		</p>
+		<h3>2. 분포 및 종류</h3>
+		<p>
+			한국, 일본, 중국에 널리 분포하며, 예전에는 심산 지역, 특히 울릉도에서 많이
+			자랐으나 요즘은 관상용으로 많이 심는다. 침엽의 길이가 작고 비스듬히 눕는
+			것을 눈향나무, 지면으로 기어가듯 자라는 것을 섬향나무, 공처럼 둥근 수형이
+			되는 것을 둥근 향나무라고 부른다.
+		</p>
+
+		<table>
+			<tr style="color: goldenrod">
+				<th>이름</th>
+				<th>나이</th>
+				<th>성별</th>
+			</tr>
+			<tr>
+				<td class="name">홍길동</td>
+				<td class="age">20</td>
+				<td class="sex">남자</td>
+			</tr>
+			<tr>
+				<td class="name">이순신</td>
+				<td class="age">50</td>
+				<td class="sex">남자</td>
+			</tr>
+
+			<tr>
+				<td class="name">신사임당</td>
+				<td class="age">40</td>
+				<td class="sex">여자</td>
+			</tr>
+		</table>
+	</body>
+</html>
